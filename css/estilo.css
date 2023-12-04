@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eec372;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body header .logo {
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+}
+body header nav .menu {
+  background: #481b48;
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+body header nav .menu li a {
+  color: whitesmoke;
+  text-decoration: none;
+  display: flex;
+  padding-inline: 30px;
+  margin: 10px auto;
+}
+body header nav .menu li a:hover {
+  background-color: darkmagenta;
+  color: aquamarine;
+}
+body header .textMenu {
+  color: brown;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

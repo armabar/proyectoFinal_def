@@ -1,0 +1,49 @@
+$marron:#eec372;
+$gris:#e08e8e;
+$negro:#481b48;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $marron;
+    font-family: Arial, Helvetica, sans-serif;  
+    header{
+        .logo{
+            display: inline-flex;
+            width: 100%;
+            height: auto;
+        }
+        nav{
+            .menu{
+                background: $negro;
+                height: 40px;
+                list-style-type: none;
+                display: flex;
+                justify-content:flex-end;
+                li{
+                    a{
+                        color: whitesmoke;
+                        text-decoration: none;
+                        display: flex;
+                        padding-inline: 30px;
+                        margin: 10px auto;
+                        &:hover{
+                            background-color:darkmagenta;
+                            color: aquamarine   ;
+                        }
+                    }
+                }
+            }
+        }
+        .textMenu{
+            color: brown;
+            font-size: 1.5rem;
+            line-height: 1.5;
+            padding: 10px;
+        }
+    }
+}
