@@ -14,7 +14,7 @@ body header .logo {
   height: auto;
 }
 body header nav .menu {
-  background: #321332;
+  background: #060606;
   height: 40px;
   list-style-type: none;
   display: flex;
@@ -36,6 +36,18 @@ body header .textMenu {
   font-size: 1.5rem;
   line-height: 1.5;
   padding: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body header h1 {
+  color: rgba(245, 245, 245, 0.999);
+  text-align: center;
+  background-color: #060606;
 }
 
 /*# sourceMappingURL=estilo.css.map */
