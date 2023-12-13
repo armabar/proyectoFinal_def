@@ -1,21 +1,9 @@
-$marron:#eacd95;
+$marron:#f8b329;
 $gris:#e08e8e;
 $negro:#060606;
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap");
+@import "index";
+@import "sucursales";
+@import "merch";
+@import "contacto";
 
-@import "Index";
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    header{
-        h1{
-            color: rgba(245, 245, 245, 0.999);
-            text-align: center;
-            background-color:$negro;
-        }
-    }
-}

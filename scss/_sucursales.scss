@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    .sucursales{
+        color: #060606;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 15px;
+    }
+
+    .textoSuc{
+        font-weight: bold;
+        color: rgb(103, 3, 3);
+        font-size: 25px;
+        padding: 5px;
+        padding-bottom: 30px;
+        max-width: 1800px;
+        margin: 20 auto;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .mapa2{
+        padding: 20px;
+        height: 300px;
+        width: 500px;
+        display: flex;
+        align-items: center;
+    }
+
+    .mapa1{
+        padding: 20px;
+        height: 300px;
+        width: 500px;
+        display: flex;
+        align-items: center;
+    }
+}

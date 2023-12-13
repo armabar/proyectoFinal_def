@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    section{
+        .tituloForm{
+            font-weight: bold;
+            color: rgb(103, 3, 3);
+            font-size: 25px;
+            padding: 20px;
+            padding-bottom: 30px;
+            max-width: 1800px;
+            margin: 20 auto;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        form{
+            .mb-3{
+                .textForm{
+                    width: 500px;
+                }
+                .textCuadro{
+                    width: 500px;
+                    height: 100px;
+                }
+            }
+        }
+    }
+}

@@ -6,21 +6,40 @@
     <title>Document</title>
     <meta name="description=" content="mejores hamburguesas de entraña Argentina">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
     <header>
       <img class="logo" src="img/deniroCover.jpg" alt="deniroCover">
-      <nav>
-        <ul class="menu">
-          <li><a href="index.html"> Inicio </a></li>
-          <li><a href="sucursales.html"> Sucursales </a></li>
-          <li><a href="bebidas.html"> Bebidas </a></li>
-          <li><a href="contacto.html"> Contacto </a></li>
-          <li> <a href="merch.html"> Merchandising </a></li>
-        </ul>
-       </nav>
-      <p class="textMenu">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus modi explicabo inventore vel neque dignissimos fugit eaque natus, deserunt nulla eum animi, saepe veniam cupiditate quod nemo quas, ratione obcaecati?</p>
+      <nav class="navbar navbar-expand-lg navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logoDeniro.png" alt="logoDeniro" width="100px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="bebidas.html">Bebidas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sucursales.html">Sucursales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="merch.html">Merchandising</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="textInicio">
+        <p class="textMenu">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus modi explicabo inventore vel neque dignissimos fugit eaque natus, deserunt nulla eum animi, saepe veniam cupiditate quod nemo quas, ratione obcaecati?</p>
+      </div>
     </header>
     <main class="container">
         <div class="row">
@@ -67,11 +86,21 @@
         </div>
     </main>
 
+    <footer>
+      <h2>Contactanos</h2>
+      <div class="contenedorRedes">
+        <div class="redes">
+          <a class="iconos" href=""><i class="icon-instagram"></i></a>
+        </div>
+        <div class="redes">
+          <a class="iconos" href=""><i class="icon-facebook"></i></a>
+        </div>
+        <div class="redes">
+          <a class="iconos" href=""><i class="icon-whatsapp"></i></a>
+        </div>
+      </div>
+    </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
-<footer>
-    <div class="contenedor">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, est esse? Nesciunt sed quo id at quas repudiandae, ab placeat asperiores autem in vitae laborum quasi aliquid magni animi provident.</p>
-    </div>
-</footer>
 </html>
