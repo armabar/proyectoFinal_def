@@ -1,9 +1,14 @@
-$marron:#f8b329;
+$marron:#f8ba69;
 $gris:#e08e8e;
 $negro:#060606;
+$rojo:#520a0a;
 @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap");
 @import "index";
 @import "sucursales";
 @import "merch";
 @import "contacto";
+
+@mixin fondo(){
+    color: $marron;
+}
 

@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(247, 203, 121);
+  background-color: #f8ba69;
   font-family: Arial, Helvetica, sans-serif;
 }
 body header .logo {
@@ -14,18 +14,30 @@ body header .logo {
   width: 100%;
   height: auto;
 }
-body header .textMenu {
+body header .textInicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  margin: auto;
+}
+body header .textInicio .textMenu {
   font-weight: bold;
-  color: rgb(103, 3, 3);
+  color: #520a0a;
   font-size: 25px;
   padding: 5px;
   padding-bottom: 30px;
   max-width: 1800px;
-  margin: 20 auto;
   font-family: "Oswald", sans-serif;
+}
+body header .textInicio .imgMenu {
+  padding-top: 5px;
+  height: auto;
+  height: 200px;
 }
 body .container {
   padding: 20px;
+  color: rgb(0, 0, 0);
 }
 body footer {
   background-color: rgb(73, 72, 72);
@@ -34,27 +46,36 @@ body footer {
   bottom: 0;
   width: 100%;
 }
-body footer h2 {
+body footer .containerFooter {
+  display: flex;
+  justify-content: center;
+  margin: 0 50px;
+}
+body footer .containerFooter h2 {
   color: rgb(192, 196, 196);
   padding: 5px;
+  padding-right: 50px;
   max-width: 1800px;
   margin: 20 auto;
   font-family: "Oswald", sans-serif;
 }
-body footer .contenedorRedes {
+body footer .containerFooter .contenedorRedes {
   display: flex;
   height: 8vh;
   align-items: center;
   justify-content: center;
 }
-body footer .contenedorRedes .redes {
+body footer .containerFooter .contenedorRedes .redes {
   display: inline-block;
   margin: 0 5px;
-  width: 50px;
+  width: 80px;
   height: 50px;
   text-align: center;
 }
-body footer .contenedorRedes .redes .iconos {
+body footer .containerFooter .contenedorRedes .redes :hover {
+  transform: scale(1.3, 1.3);
+}
+body footer .containerFooter .contenedorRedes .redes .iconos {
   display: block;
   padding: 0 10px;
   background: #333;
@@ -62,9 +83,6 @@ body footer .contenedorRedes .redes .iconos {
   line-height: 50px;
   font-size: 18px;
   box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.2);
-}
-body footer .contenedorRedes .redes .iconos :hover {
-  background-color: rgb(8, 172, 172);
 }
 
 * {
